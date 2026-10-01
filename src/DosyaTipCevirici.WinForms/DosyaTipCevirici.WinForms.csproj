@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\DosyaTipCevirici.Core\DosyaTipCevirici.Core.csproj" />
+    <ProjectReference Include="..\DosyaTipCevirici.Infrastructure\DosyaTipCevirici.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>DosyaTipCevirici</AssemblyName>
+    <AssemblyTitle>Dosya Tip Dönüştürücü</AssemblyTitle>
+    <Product>Dosya Tip Dönüştürücü</Product>
+    <ApplicationIcon>Assets\app.ico</ApplicationIcon>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>

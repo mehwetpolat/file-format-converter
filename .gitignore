@@ -1,0 +1,29 @@
+# Local tests and their results
+/tests/
+**/TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# .NET build and publish output
+**/bin/
+**/obj/
+/artifacts/
+
+# IDE and machine-specific files
+/.vs/
+/.vscode/
+/.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Generated icon preview; the application uses app.ico
+/src/DosyaTipCevirici.WinForms/Assets/app-preview.png
