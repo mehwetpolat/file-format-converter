@@ -36,14 +36,14 @@ Farklı türde dosyaları aynı işlemde dönüştürebilirsiniz. Örneğin kayn
 
 | Kaynak dosya | Seçilebilen hedefler |
 | --- | --- |
-| DOC, DOCX, DOCM, ODT, RTF, TXT, HTML, HTM | Bu gruptaki diğer uzantılar ve PDF |
-| XLS, XLSX, XLSM, XLSB, ODS, CSV | Bu gruptaki diğer uzantılar ve PDF |
+| DOC, DOCX, DOCM, ODT, RTF, TXT, LOG, HTML, HTM, MD, MARKDOWN | Bu gruptaki diğer uzantılar ve PDF (LOG yalnızca kaynak olarak eklenebilir) |
+| XLS, XLSX, XLSM, XLSB, ODS, CSV, TSV | Bu gruptaki diğer uzantılar ve PDF |
 | PPT, PPTX, PPTM, PPS, PPSX, ODP | Bu gruptaki diğer uzantılar ve PDF |
-| PDF | DOC, DOCX, DOCM, ODT, RTF, TXT, HTML, HTM |
-| PNG, JPG, JPEG, BMP, GIF, TIF, TIFF | Bu gruptaki diğer uzantılar |
-| HEIC, HEIF (iPhone fotoğrafları) | PNG, JPG, JPEG, BMP, GIF, TIF, TIFF |
+| PDF | DOC, DOCX, DOCM, ODT, RTF, TXT, HTML, HTM, MD, MARKDOWN |
+| PNG, JPG, JPEG, BMP, GIF, TIF, TIFF, ICO | Bu gruptaki diğer uzantılar |
+| HEIC, HEIF (iPhone fotoğrafları) | PNG, JPG, JPEG, BMP, GIF, TIF, TIFF, ICO |
 
-`DOC → DOCX`, `PPT → PPTX`, `JPG → JPEG` ve ters yöndeki uzantı dönüşümleri de kullanılabilir. PDF'den belgeye dönüşüm Word ile yapılır; özellikle taranmış veya karmaşık PDF'lerde metin ve sayfa düzeni değişebilir. CSV çıktısı yalnızca etkin Excel sayfasını içerir. Hareketli GIF ve çok sayfalı TIFF dosyalarını başka görsel türüne dönüştürürken yalnızca ilk kare/sayfa alınır. Belge, tablo ve sunum türleri birbirine doğrudan çevrilmez.
+`DOC → DOCX`, `PPT → PPTX`, `JPG → JPEG`, `CSV ↔ TSV`, `PNG ↔ ICO` ve ters yöndeki uzantı dönüşümleri de kullanılabilir. Markdown (`MD`, `MARKDOWN`) dosyaları başlıklardan tablolara ve kod bloklarına kadar biçimlendirilmiş olarak HTML ve TXT'ye veya Word üzerinden DOCX ve PDF'e dönüştürülebilir; aynı şekilde belgeler ve PDF'ler de Markdown'a çevrilebilir. `MD ↔ HTML`, `MD ↔ TXT`, `CSV ↔ TSV` ve görseller arasındaki dönüşümlerde Microsoft Office gerekmez. PDF'den belgeye dönüşüm Word ile yapılır; özellikle taranmış veya karmaşık PDF'lerde metin ve sayfa düzeni değişebilir. CSV/TSV çıktısı yalnızca etkin Excel sayfasını içerir. Hareketli GIF ve çok sayfalı TIFF dosyalarını başka görsel türüne dönüştürürken yalnızca ilk kare/sayfa alınır. Belge, tablo ve sunum türleri birbirine doğrudan çevrilmez.
 
 ## Sorun yaşarsanız
 
